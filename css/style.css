@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 10px solid red;
+}
+
+header {
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+}
+
+footer {
+    height: 100px;
+    background-color: aqua;
+}
